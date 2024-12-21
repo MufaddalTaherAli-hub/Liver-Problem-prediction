@@ -15,18 +15,6 @@ classification = data["model"]
 
 
 def show_predict_page():
-    st.markdown(
-    '''
-    <style>
-    .stApp {
-        background: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
-        background-size: cover;
-    }
-    </style>
-    ''', 
-    unsafe_allow_html=True
-    )
-    
 #title
     st.title("Liver Problem Prediction")
 # sub-title
